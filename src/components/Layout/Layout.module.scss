@@ -1,0 +1,29 @@
+.layout {
+  //width: 100vw;
+  //height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  //position: relative;
+
+  .logo {
+    margin-top: 50%;
+  }
+
+  .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    max-width: 100%;
+  }
+
+  .right {
+    position: absolute;
+    right: 7px;
+    bottom: 0;
+    z-index: -1;
+    max-width: 100%;
+  }
+}
