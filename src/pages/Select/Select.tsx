@@ -3,6 +3,7 @@ import {useNavigate} from "react-router-dom";
 import {BlockchainContext} from "../../App.tsx";
 import ethereum from '../../assets/ethereum.svg';
 import icp from '../../assets/icp.svg';
+import polygon from '../../assets/polygon.png';
 import Layout from "../../components/Layout/Layout.tsx";
 import './Select.scss';
 
@@ -16,6 +17,11 @@ export const blockchainsData: any = [
 		id: 2,
 		title: 'Internet Computer Protocol',
 		img: icp
+	},
+	{
+		id: 3,
+		title: 'Polygon',
+		img: polygon
 	}
 ]
 

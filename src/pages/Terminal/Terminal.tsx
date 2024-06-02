@@ -15,8 +15,6 @@ const Terminal: FC<TerminalProps> = ({ipAddress, port, username}) => {
     const [socket, setSocket] = useState<Socket | null>(null);
     const termRef = useRef<Xterm | null>(null);
     const terminalContainerRef = useRef<HTMLDivElement | null>(null);
-    const cellWidth = 9; // Adjust based on your font size
-    const cellHeight = 17;
 
     // TODO: add chain execution on init 
     // useEffect(() => {
